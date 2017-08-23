@@ -30,6 +30,10 @@ class MainWindow : public QMainWindow
 
         void on_ohlc_triggered();
 
+        void on_actionPlot_triggered();
+
+        void on_actionOne_triggered();
+
     private:
         Ui::MainWindow *ui;
         MyDialog *mDialog;
